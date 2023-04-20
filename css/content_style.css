@@ -1,0 +1,26 @@
+#dl-button{
+    display: flex;
+    width: 1.75rem;
+    height: 1.75rem;
+    flex-shrink: 0 !important;
+}
+
+#dl-button div {
+    background-color: #ffda2d;
+    border-radius: 100px;
+    border: solid #171717;
+}
+
+#dl-button div img{
+    max-width: 100%;
+}
+
+#dl-button div :hover{
+    background-color: #E6C426;
+    border-radius: 100px;
+}
+
+/* UI fix */
+.control-container>* {
+    margin-left: 8px !important;
+}
