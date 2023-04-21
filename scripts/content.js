@@ -8,7 +8,7 @@ function getElementByXPath(XPath) {
 
 // Get current section
 var subsection = window.location.href.split("/");
-subsection = subsection[subsection.length -1];
+subsection = subsection[3];
 
 // Create download button
 const downloadButton = document.createElement('a');

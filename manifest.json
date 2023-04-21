@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Artlist Downloader",
-  "description": "Download Artlist preview samples (completely legally, trust me 👀,)",
+  "description": "Downloading Artlist preview samples made easier 👀",
   "version": "1.0",
   "author": "https://github.com/antoineRmd",
+  "update_url": "https://raw.githubusercontent.com/AntoineRmd/artlist-dl/main/update.json",
   "icons": {
     "16": "assets/img/icon-16.png",
     "32": "assets/img/icon-32.png",
@@ -27,6 +28,10 @@
       ]
     }
   ],
+  "background": {
+    "service_worker": "scripts/background.js",
+    "type": "modoule"
+  },
   "permissions": [
     "webNavigation"
   ],
