@@ -38,7 +38,7 @@ function executeMainContent() {
     if (isAudioPresent) {
         var link = audioElement.src;
         downloadButton.href = `${link}`;
-        console.log('link: ', link);
+        downloadButton.download = `${link}`;
     }
 
     // Inject button on page
