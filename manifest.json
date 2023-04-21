@@ -30,7 +30,7 @@
   ],
   "background": {
     "service_worker": "scripts/background.js",
-    "type": "modoule"
+    "type": "module"
   },
   "permissions": [
     "webNavigation"
