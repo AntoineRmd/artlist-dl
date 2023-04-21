@@ -38,6 +38,7 @@ function executeMainContent() {
     if (isAudioPresent) {
         var link = audioElement.src;
         downloadButton.href = `${link}`;
+        console.log('link: ', link);
     }
 
     // Inject button on page
@@ -50,13 +51,7 @@ function executeMainContent() {
             iconBarDiv.appendChild(downloadButton);
         }
     }
-
-    // Clear interval if button successfully injected
-    if (isAudioPresent) {
-        clearInterval(mainContentIntervalID);
-        console.log('Button injected successfully');
-    }
 }
 
 // Main code execution loop
-const mainContentIntervalID = setInterval(executeMainContent, 500);
+const intervalID = setInterval(executeMainContent, 500);
