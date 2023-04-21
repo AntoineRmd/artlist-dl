@@ -49,6 +49,15 @@ function executeMainContent() {
         } else if (subsection == "sfx") {
             var iconBarDiv = getElementByXPath(xpathSFX);
             iconBarDiv.appendChild(downloadButton);
+        } else {
+            try {
+                var iconBarDiv = getElementByXPath(xpathMusic);
+                iconBarDiv.appendChild(downloadButton);
+            } catch {}
+            try {
+                var iconBarDiv = getElementByXPath(xpathSFX);
+                iconBarDiv.appendChild(downloadButton);
+            } catch {}
         }
     }
 }
