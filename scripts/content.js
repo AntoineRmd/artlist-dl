@@ -6,10 +6,6 @@ function getElementByXPath(XPath) {
     return document.evaluate(XPath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 }
 
-// Get current section
-var subsection = window.location.href.split("/");
-subsection = subsection[3];
-
 // Create download button
 const downloadButton = document.createElement('a');
 downloadButton.id = "dl-button";
@@ -43,22 +39,14 @@ function executeMainContent() {
 
     // Inject button on page
     if (isAudioPresent) {
-        if (subsection == "royalty-free-music") {
+        try {
             var iconBarDiv = getElementByXPath(xpathMusic);
             iconBarDiv.appendChild(downloadButton);
-        } else if (subsection == "sfx") {
+        } catch {}
+        try {
             var iconBarDiv = getElementByXPath(xpathSFX);
             iconBarDiv.appendChild(downloadButton);
-        } else {
-            try {
-                var iconBarDiv = getElementByXPath(xpathMusic);
-                iconBarDiv.appendChild(downloadButton);
-            } catch {}
-            try {
-                var iconBarDiv = getElementByXPath(xpathSFX);
-                iconBarDiv.appendChild(downloadButton);
-            } catch {}
-        }
+        } catch {}
     }
 }
 
