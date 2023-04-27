@@ -6,12 +6,15 @@ Artlist DL n'apporte aucune nouveauté véritable et redirige simplement l'utili
 ## Installation
 1. Télécharger la **dernière version** de l'extension dans `/download/latest.zip`.
 
-2. Dézipper l'archive `.zip` et obtenir un dossier nommé `latest`.
+2. Dézipper l'archive `.zip` et obtenir un dossier nommé `artlist-dl_version`.
 
 3. Dans Chrome, aller dans `Paramètres > Extensions` **OU** directement via `chrome://extensions`.
 
 4. Activer le "mode développeur", en haut à droite.
 
-5. "Charger l'extension non empaquetée" et choisir le dossier `latest`.
+5. "Charger l'extension non empaquetée" et choisir le dossier `artlist-dl_version`.
 
 6. Et voilà ! Pour commencer à utiliser Artlist DL, rendez-vous sur [Artlist](https://artlist.io) :)
+
+## Rapporter un problème
+N'hésitez pas à créer une nouvelle Issue dans l'onglet `Issue` en cas de problème.
