@@ -10,7 +10,7 @@ function getElementByXPath(XPath) {
 const downloadButton = document.createElement('a');
 downloadButton.id = "dl-button";
 downloadButton.target = "_blank";
-downloadButton.innerHTML = `<div><img src="${chrome.runtime.getURL('assets/img/dl-icon.svg')}"></div>`;
+downloadButton.innerHTML = `<div><img src="${chrome.runtime.getURL('assets/img/dl-icon.svg')}" alt="Download Sample"></div>`;
 
 // Main function
 function executeMainContent() {

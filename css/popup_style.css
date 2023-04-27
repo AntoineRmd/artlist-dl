@@ -1,0 +1,127 @@
+/* Color Palette: https://coolors.co/ffda2d-171717-a41623-7caa4b */
+/* Font: Pathway Extreme from Google Fonts (400, 400 italic, 600, 600 italic) */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+
+    background-color: #131313;
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 400;
+
+    border-radius: 100px;
+}
+
+button, input[type="submit"] {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+p {
+    margin: 0px;
+}
+
+header#artlist-status {
+    background-color: #A41623; /* #698F3F */
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#artlist-accesses {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 1rem 0px;
+}
+
+#artlist-accesses p {
+    margin-bottom: 0.5rem;
+}
+
+#artlist-accesses div a {
+    display: inline;
+    background-color: #ffda2d;
+    color: #171717;
+    border-radius: 100px;
+    border: solid #171717;
+    padding: 0.2rem 0.4rem;
+}
+
+#artlist-accesses div a :hover {
+    background-color: #e6c426;
+    border-radius: 100px;
+}
+
+#reload {
+    display: flex;
+    align-items: baseline;
+    margin: 0.5rem;
+
+    width: 200%;
+}
+
+#rl-button {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+#rl-button div {
+    background-color: #ffda2d;
+    border-radius: 100px;
+    border: solid #171717;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0.1rem;
+}
+
+#rl-button div :hover {
+    background-color: #e6c426;
+    border-radius: 100px;
+}
+
+#rl-button div img {
+    max-width: 100%;
+}
+
+#reload span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 0.75rem;
+}
+
+#reload span#version {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+    background-color: #7caa4b;
+    border-radius: 100px;
+    padding: 0.2rem 0.4rem;
+}
+
+/* form {
+    margin: 0.5rem;
+}
+
+form div {
+    background-color: #ffda2d;
+    border-radius: 100px;
+    border: solid #171717;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0.1rem;
+} */

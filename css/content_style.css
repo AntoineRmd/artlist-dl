@@ -1,4 +1,4 @@
-#dl-button{
+#dl-button {
     display: flex;
     width: 1.75rem;
     height: 1.75rem;
@@ -11,12 +11,12 @@
     border: solid #171717;
 }
 
-#dl-button div img{
+#dl-button div img {
     max-width: 100%;
 }
 
-#dl-button div :hover{
-    background-color: #E6C426;
+#dl-button div :hover {
+    background-color: #e6c426;
     border-radius: 100px;
 }
 

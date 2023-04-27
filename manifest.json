@@ -12,7 +12,7 @@
     "128": "assets/img/icon-128.png"
   },
   "action": {
-    "default_name": "Popup",
+    "default_name": "Artlist Downloader",
     "default_popup": "./popup/popup.html"
   },
   "content_scripts": [
@@ -33,7 +33,8 @@
     "type": "module"
   },
   "permissions": [
-    "webNavigation"
+    "webNavigation",
+    "tabs"
   ],
   "web_accessible_resources": [
     {
