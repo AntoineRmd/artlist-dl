@@ -1,7 +1,7 @@
 # 🇫🇷 Artlist Downloader
-> **Artlist Downloader** est une extension pour Chrome et navigateurs basés sur Chromium (MS Edge, Brave, Arc, Opera, ...) L'extension rend facile le téléchargement des fichiers **son** de preview disponibles sur [Artlist](https://artlist.io).
+**Artlist Downloader** est une extension pour Chrome et navigateurs basés sur Chromium (MS Edge, Brave, Arc, Opera, ...) L'extension rend facile le téléchargement des fichiers **son** de preview disponibles sur [Artlist](https://artlist.io).
 
-> Artlist DL n'apporte aucune nouveauté véritable et redirige simplement l'utilisateur vers des fichiers *fournis côté client*.
+Artlist DL n'apporte aucune nouveauté véritable et redirige simplement l'utilisateur vers des fichiers *fournis côté client*.
 
 ## Installation
 1. Télécharger la **dernière version** de l'extension dans `/download/latest.zip`.
