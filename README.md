@@ -16,5 +16,10 @@ Artlist DL n'apporte aucune nouveauté véritable et redirige simplement l'utili
 
 6. Et voilà ! Pour commencer à utiliser Artlist DL, rendez-vous sur [Artlist](https://artlist.io) :)
 
+## Utilisation
+Sur [Artlist](https://artlist.io), dans les sections *Music* et *SFX*, faire jouer un son fera automatiquement apparaître un nouveau bouton, en bas à droite, à côté du player. Ce bouton vous redirige vers le fichier audio correspondant (`.aac`), prêt à être téléchargé.
+
+Ces fichiers audio sont des préviews des ressources que propose Artlist. Les sons et musiques sont complets et sans watermark, mais leur qualité n'est évidemment identique aux fichiers originaux d'Artlist.
+
 ## Rapporter un problème
 N'hésitez pas à créer une nouvelle Issue dans l'onglet `Issues` en cas de problème.
