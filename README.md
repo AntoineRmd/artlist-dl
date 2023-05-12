@@ -4,7 +4,7 @@
 Artlist DL n'apporte aucune nouveauté véritable et redirige simplement l'utilisateur vers des fichiers *fournis côté client*.
 
 ## Installation
-1. Télécharger la **dernière version** de l'extension dans `/download/latest.zip`.
+1. Télécharger la **dernière version** de l'extension dans `Releases` 👉.
 
 2. Dézipper l'archive `.zip` et obtenir un dossier nommé `artlist-dl_version`.
 
