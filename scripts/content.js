@@ -42,11 +42,15 @@ function executeMainContent() {
         try {
             var iconBarDiv = getElementByXPath(xpathMusic);
             iconBarDiv.appendChild(downloadButton);
-        } catch {}
+        } catch {
+            throw new Error('Music DL button not inserted');
+        }
         try {
             var iconBarDiv = getElementByXPath(xpathSFX);
             iconBarDiv.appendChild(downloadButton);
-        } catch {}
+        } catch {
+            throw new Error('SFX DL button not inserted');
+        }
     }
 }
 
