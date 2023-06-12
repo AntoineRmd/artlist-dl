@@ -1,6 +1,6 @@
 // Constants & functions
-const xpathMusic = "/html/body/div[11]/section/div/section/div/footer/div/div/div/div[8]/div/div/div[2]";
-const xpathSFX = "/html/body/div[3]/div[1]/div[3]/div/div[3]/div[1]/div";
+const xpathMusic = "/html/body/div[9]/section/div/section/div/footer/div/div/div/div[8]/div/div/div[2]";
+const xpathSFX = "/html/body/div[1]/div[1]/div[3]/div/div[3]/div[1]/div";
 
 function getElementByXPath(XPath) {
     return document.evaluate(XPath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -43,13 +43,13 @@ function executeMainContent() {
             var iconBarDiv = getElementByXPath(xpathMusic);
             iconBarDiv.appendChild(downloadButton);
         } catch {
-            throw new Error('Music DL button not inserted');
+            // throw new Error('Music DL button not inserted');
         }
         try {
             var iconBarDiv = getElementByXPath(xpathSFX);
             iconBarDiv.appendChild(downloadButton);
         } catch {
-            throw new Error('SFX DL button not inserted');
+            // throw new Error('SFX DL button not inserted');
         }
     }
 }
